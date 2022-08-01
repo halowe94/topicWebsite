@@ -42,4 +42,31 @@ main {
     margin: 0 auto;
 }
 
+/* FOOTER */
+
+footer {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    background-color: gray;
+}
+
+footer nav {
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a:hover {
+    color: antiquewhite;
+}
+
+#social {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+
 
